@@ -1,1 +1,8 @@
+/* Высота и цвета для секций */
+.section {
+  height: 700px;
+}
 
+#chicken { background-color: #ffe0b2; }
+#beef { background-color: #c8e6c9; }
+#sushi { background-color: #bbdefb; }
