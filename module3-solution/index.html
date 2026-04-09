@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Наше меню</title>
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Свой CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chicken">Курица</a></li>
+          <li><a href="#beef">Говядина</a></li>
+          <li><a href="#sushi">Суши</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Заголовок -->
+  <div class="container text-center">
+    <h1>Наше меню</h1>
+  </div>
+
+  <!-- Высокая секция для прокрутки -->
+  <div class="container-fluid" style="background-color:#f2f2f2; height:1000px;">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="text-center">Большая секция</h2>
+        <p>Тут может быть текст для прокрутки...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Разделы Курица, Говядина, Суши -->
+  <div class="container-fluid">
+    <div class="row">
+      <div id="chicken" class="col-xs-12 col-sm-6 col-md-4 section">
+        <h3 class="text-center">Курица</h3>
+      </div>
+      <div id="beef" class="col-xs-12 col-sm-6 col-md-4 section">
+        <h3 class="text-center">Говядина</h3>
+      </div>
+      <div id="sushi" class="col-xs-12 col-sm-12 col-md-4 section">
+        <h3 class="text-center">Суши</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery и Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
